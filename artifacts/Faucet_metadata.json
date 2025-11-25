@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "withdraw_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "Faucet"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x8fb9be16499863f4a6598ba1a5eb3ebf4ff30c0162e8a9d9c01c1df95c48b895",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c6021b6299bfa82af849fd2e0708241843732ec7ccbf072dafedacac9ce6235",
+				"dweb:/ipfs/QmURTgjNya15UssapozEpM49YcQ4C8oE9khZmqmHRiA7o4"
+			]
+		}
+	},
+	"version": 1
+}
