@@ -4,6 +4,10 @@ pragma solidity 0.8.14;
 
 contract MyContract {
     
-    string public ourString = "Hello World on Earth";
+    string public myString = "Hello World on Earth";
 
+    function unpdateOurString(string memory testString) public {
+        myString = testtring;
+    }
+// test
 }
