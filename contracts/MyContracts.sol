@@ -7,7 +7,7 @@ contract MyContract {
     string public myString = "Hello World on Earth";
 
     function unpdateOurString(string memory testString) public {
-        myString = testtring;
+        myString = testString;
     }
 // test
 }
